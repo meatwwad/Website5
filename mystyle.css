@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: slateblue;
+}
+
+#container{
+  position: relative;
+  top: 100px;
+  width: 400px;
+}
+
+#content-box{
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+ul{
+  position: relative;
+  margin-bottom: 19px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+
+  text-decoration: none;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover{
+  background: orange;
+}
