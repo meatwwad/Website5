@@ -1,12 +1,11 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(fonts/pica/pica/pica.zip/IMFellDoublePicaSC-Regular.ttf);
+  src: url(fonts/pica/pica/IMFellDoublePicaSC-Regular.ttf);
 }
 
 h1{
   font-family: pica;
 }
-
 
 body{
     display: flex;
