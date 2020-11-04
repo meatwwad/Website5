@@ -7,7 +7,7 @@ body{
 #container{
   position: relative;
   top: 100px;
-  width: 700px;
+  width: 800px;
 }
 
 #content-box{
@@ -18,7 +18,7 @@ body{
 
 ul{
   position: relative;
-  margin-bottom: 19px;
+  margin-bottom: 200px;
   list-style-type: none;
   padding: 0px;
   display: flex;
