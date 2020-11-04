@@ -1,10 +1,10 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(fonts/IM_Fell_Double_Pica_SC.zip/IMFellDoublePicaSC-Regular.ttf);
+  src: url(fonts/pica.zip/IMFellDoublePicaSC-Regular.ttf);
 }
 
 h1{
-  font-family: IM Fell Double Pica SC;
+  font-family: pica;
 }
 
 
