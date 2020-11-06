@@ -1,11 +1,13 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url(fonts/pica/IMFellDoublePicaSC-Regular.ttf);
-}
+#slider {
+  overflow: hidden;
+  }
 
-h1{
-  font-family: IMFellDoublePicaSC-Regular;
-}
+#slider figure {
+    position: relative;
+    width: 500%
+    margin: 0;
+    animation: 20s slider infinite;
+  }
 
 body{
     display: flex;
