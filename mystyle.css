@@ -1,13 +1,46 @@
 #slider {
   overflow: hidden;
-  }
+}
 
 #slider figure {
     position: relative;
     width: 500%
     margin: 0;
     animation: 20s slider infinite;
+}
+
+  #slider1 {
+    overflow: hidden;
   }
+
+  #slider1 figure {
+      position: relative;
+      width: 500%
+      margin: 0;
+      animation: 20s slider infinite;
+  }
+
+    #slider2 {
+      overflow: hidden;
+    }
+
+    #slider2 figure {
+        position: relative;
+        width: 500%
+        margin: 0;
+        animation: 20s slider infinite;
+    }
+
+    #slider3 {
+      overflow: hidden;
+    }
+
+    #slider3 figure {
+        position: relative;
+        width: 500%
+        margin: 0;
+        animation: 20s slider infinite;
+    }
 
 body{
     display: flex;
