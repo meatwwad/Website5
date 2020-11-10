@@ -4,9 +4,13 @@
 
 #slider figure {
     position: relative;
-    width: 500%
-    margin: 0;
+    width: 500%;
     animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 11%;
+  float: left;
 }
 
   #slider1 {
@@ -15,8 +19,7 @@
 
   #slider1 figure {
       position: relative;
-      width: 500%
-      margin: 0;
+      width: 500%;
       animation: 20s slider infinite;
   }
 
@@ -26,8 +29,7 @@
 
     #slider2 figure {
         position: relative;
-        width: 500%
-        margin: 0;
+        width: 500%;
         animation: 20s slider infinite;
     }
 
@@ -37,8 +39,7 @@
 
     #slider3 figure {
         position: relative;
-        width: 500%
-        margin: 0;
+        width: 500%;
         animation: 20s slider infinite;
     }
 
