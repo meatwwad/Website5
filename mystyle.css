@@ -5,6 +5,8 @@
 #slider figure {
     position: relative;
     width: 500%;
+    margin: 0;
+    left: 0;
     animation: 20s slider infinite;
 }
 
@@ -20,7 +22,9 @@
   #slider1 figure {
       position: relative;
       width: 500%;
-      animation: 20s slider infinite;
+      margin: 0;
+      left: 0;
+      animation: 20s slider1 infinite;
   }
 
     #slider2 {
@@ -30,7 +34,9 @@
     #slider2 figure {
         position: relative;
         width: 500%;
-        animation: 20s slider infinite;
+        margin: 0;
+        left: 0;
+        animation: 20s slider2 infinite;
     }
 
     #slider3 {
@@ -40,7 +46,9 @@
     #slider3 figure {
         position: relative;
         width: 500%;
-        animation: 20s slider infinite;
+        margin: 0;
+        left: 0;
+        animation: 20s slider3 infinite;
     }
 
 body{
