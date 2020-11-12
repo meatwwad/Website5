@@ -220,6 +220,14 @@
   src: url(fonts/typewriter_condensed/typewcond_regular.otf);
 }
 
+@font-face {
+  font-family: vogue;
+  src: url(fonts/vogue/vogue.ttf);
+}
+
+h1{
+  font-family: vogue;
+}
 body{
     font-family: typewriter_condensed;
     display: flex;
