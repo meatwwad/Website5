@@ -246,6 +246,12 @@ body{
   width: 800px;
 }
 
+#hero-image {
+  display: flex;
+  justify-content: center;
+  background: #000;
+}
+
 #content-box{
   background: #fff;
   padding: 15px;
