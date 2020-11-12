@@ -225,6 +225,11 @@
   src: url(fonts/vogue/vogue.ttf);
 }
 
+@font-face {
+  font-family: documenta;
+  src: url(fonts/documenta/documenta.otf);
+}
+
 h1{
   font-family: vogue;
 }
@@ -254,6 +259,7 @@ ul{
   padding: 0px;
   display: flex;
   justify-content: center;
+  font-family: documenta;
 }
 
 a{
