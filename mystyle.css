@@ -234,10 +234,12 @@ h1{
   font-family: vogue;
 }
 body{
-    font-family: typewriter_condensed;
-    display: flex;
-    justify-content: center;
-    background: slateblue;
+
+  background: 	#ff80aa;
+  font-family: typewriter_condensed;
+  display: flex;
+  justify-content: center;
+
 }
 
 #container{
@@ -264,7 +266,7 @@ body{
 
 ul{
   position: relative;
-  margin-bottom: 19px;
+  margin-bottom: 40px;
   list-style-type: none;
   padding: 0px;
   display: flex;
@@ -273,13 +275,12 @@ ul{
 }
 
 a{
-
+  color: #000;
   text-decoration: none;
-  background: #fff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
 a:hover{
-  background: orange;
+  background: #ff3385;
 }
