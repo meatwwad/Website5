@@ -215,13 +215,13 @@
   }
 }
 
-@@font-face {
+@font-face {
   font-family: typewriter_condensed;
-  src: url(fonts/typewriter_condensed);
+  src: url(fonts/typewriter_condensed/typewcond_regular.otf);
 }
 
 body{
-    font-family: typewriter_condensed
+    font-family: typewriter_condensed;
     display: flex;
     justify-content: center;
     background: slateblue;
