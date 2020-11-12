@@ -54,11 +54,42 @@
 
   #slider1 figure {
       position: relative;
-      width: 500%;
+      width: 600%;
       margin: 0;
       left: 0;
       animation: 20s slider1 infinite;
   }
+
+  #slider figure img {
+    width: 16.666%;
+    float: left;
+  }
+
+  @keyframes slider1 {
+    0% {
+      left: 0;
+    }
+    16.667% {
+      left: 0;
+    }
+    33.334% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    66.668% {
+      left: -300%;
+    }
+    83.335% {
+      left: -400%;
+    }
+    100% {
+      left: -500%;
+    }
+
+
+
 
     #slider2 {
       overflow: hidden;
