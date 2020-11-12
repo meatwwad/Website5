@@ -48,24 +48,24 @@
   }
 }
 
-  #slider1 {
+  #sliderone {
     overflow: hidden;
   }
 
-  #slider1 figure {
+  #sliderone figure {
       position: relative;
       width: 600%;
       margin: 0;
       left: 0;
-      animation: 20s slider1 infinite;
+      animation: 20s sliderone infinite;
   }
 
-  #slider1 figure img {
+  #sliderone figure img {
     width: 16.666%;
     float: left;
   }
 
-  @keyframes slider1 {
+  @keyframes sliderone {
     0% {
       left: 0;
     }
@@ -87,33 +87,7 @@
     100% {
       left: -500%;
     }
-
-
-
-
-    #slider2 {
-      overflow: hidden;
-    }
-
-    #slider2 figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        animation: 20s slider2 infinite;
-    }
-
-    #slider3 {
-      overflow: hidden;
-    }
-
-    #slider3 figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        animation: 20s slider3 infinite;
-    }
+}
 
 body{
     display: flex;
