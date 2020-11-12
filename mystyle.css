@@ -145,15 +145,76 @@
     left: -1000%;
   }
   85.71% {
-    left: -1200%;
+    left: -1100%;
   }
   92.85% {
-    left: -1300%;
+    left: -1200%;
   }
   99.3% {
-    left: -1400%;
+    left: -1300%;
 }
 }
+
+
+#sliderthree {
+  overflow: hidden;
+}
+
+#sliderthree figure {
+    position: relative;
+    width: 1200%;
+    margin: 0;
+    left: 0;
+    animation: 25s sliderthree infinite;
+}
+
+#sliderthree figure img {
+  width: 8.3%;
+  float: left;
+}
+
+@keyframes sliderthree {
+  0% {
+    left: 0;
+  }
+  8.3% {
+    left: 0;
+  }
+  16.6% {
+    left: -100%;
+  }
+  24.9% {
+    left: -200%;
+  }
+  33.2% {
+    left: -300%;
+  }
+  41.5% {
+    left: -400%;
+  }
+  49.8% {
+    left: -500%;
+  }
+  58.1% {
+    left: -600%;
+  }
+  66.4% {
+    left: -700%;
+  }
+  74.7% {
+    left: -800%;
+  }
+  83% {
+    left: -900%;
+  }
+  91.3% {
+    left: -1000%;
+  }
+  99% {
+    left: -1100%;
+  }
+}
+
 
 body{
     display: flex;
