@@ -11,7 +11,7 @@
 }
 
 #slider figure img {
-  width: 11%;
+  width: 11.111%;
   float: left;
 }
 
@@ -29,22 +29,22 @@
     left: -100%;
   }
   44% {
-    left: -100%;
+    left: -200%;
   }
   55% {
-    left: -100%;
+    left: -200%;
   }
   66% {
-    left: -100%;
+    left: -300%;
   }
   77% {
-    left: -100%;
+    left: -300%;
   }
   88% {
-    left: -100%;
+    left: -400%;
   }
   99% {
-    left: -100%;
+    left: -500%;
   }
 }
 
