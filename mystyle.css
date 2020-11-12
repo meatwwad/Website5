@@ -99,7 +99,7 @@
     width: 1400%;
     margin: 0;
     left: 0;
-    animation: 30s sliderone infinite;
+    animation: 25s sliderone infinite;
 }
 
 #slidertwo figure img {
@@ -126,10 +126,10 @@
   35.7142857% {
     left: -400%;
   }
-  42.8571428% {
+  42.8571% {
     left: -500%;
   }
-  50% {
+  50.2% {
     left: -600%;
   }
   57.1428571% {
