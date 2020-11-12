@@ -4,7 +4,7 @@
 
 #slider figure {
     position: relative;
-    width: 500%;
+    width: 900%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
@@ -23,6 +23,27 @@
     left: 0;
   }
   22% {
+    left: -100%;
+  }
+  33% {
+    left: -100%;
+  }
+  44% {
+    left: -100%;
+  }
+  55% {
+    left: -100%;
+  }
+  66% {
+    left: -100%;
+  }
+  77% {
+    left: -100%;
+  }
+  88% {
+    left: -100%;
+  }
+  99% {
     left: -100%;
   }
 }
